@@ -2,7 +2,7 @@
 
 /**
  *  main - prints all combination of single digits
- *  return: Always 0
+ *  Return: Always 0
  */
 int main(void)
 {
@@ -13,7 +13,6 @@ int main(void)
 		putchar(n);
 		if (n != 57)
 		{
-			putchar(',');
 			putchar(',');
 		}
 	}
